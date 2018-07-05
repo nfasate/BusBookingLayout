@@ -11,5 +11,6 @@ import UIKit
 class SeatInfoCollectionViewCell: UICollectionViewCell {
     @IBOutlet var colorView: UIView!
     @IBOutlet var nameLbl: UILabel!
+    @IBOutlet var squareWidthContraint: NSLayoutConstraint!
     
 }

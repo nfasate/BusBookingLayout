@@ -12,4 +12,6 @@ class SeatCollectionViewCell: UICollectionViewCell {
     @IBOutlet var sleeperSeatView: UIView!
     @IBOutlet var seatNumberLbl: UILabel!
     
+    var isSeatSelected: Bool? = false
+    
 }
