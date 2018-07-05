@@ -12,6 +12,8 @@
 		A997975720EDA8E5003373EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A997975520EDA8E5003373EC /* Main.storyboard */; };
 		A997975920EDA8E5003373EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A997975820EDA8E5003373EC /* Assets.xcassets */; };
 		A997975C20EDA8E5003373EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A997975A20EDA8E5003373EC /* LaunchScreen.storyboard */; };
+		A997976420EDB854003373EC /* SeatInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A997976320EDB854003373EC /* SeatInfoCollectionViewCell.swift */; };
+		A997976620EDB872003373EC /* SeatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A997976520EDB872003373EC /* SeatCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A997975820EDA8E5003373EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A997975B20EDA8E5003373EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A997975D20EDA8E5003373EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A997976320EDB854003373EC /* SeatInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A997976520EDB872003373EC /* SeatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				A997975120EDA8E4003373EC /* AppDelegate.swift */,
 				A997975320EDA8E5003373EC /* ViewController.swift */,
 				A997975520EDA8E5003373EC /* Main.storyboard */,
+				A997976320EDB854003373EC /* SeatInfoCollectionViewCell.swift */,
+				A997976520EDB872003373EC /* SeatCollectionViewCell.swift */,
 				A997975820EDA8E5003373EC /* Assets.xcassets */,
 				A997975A20EDA8E5003373EC /* LaunchScreen.storyboard */,
 				A997975D20EDA8E5003373EC /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				A997975420EDA8E5003373EC /* ViewController.swift in Sources */,
 				A997975220EDA8E4003373EC /* AppDelegate.swift in Sources */,
+				A997976420EDB854003373EC /* SeatInfoCollectionViewCell.swift in Sources */,
+				A997976620EDB872003373EC /* SeatCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
